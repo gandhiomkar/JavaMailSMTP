@@ -17,7 +17,6 @@ public class App {
 
     private static String USER_NAME; // GMail user name (just the part before "@gmail.com")
     private static String PASSWORD ;
-    private static String RECIPIENT;
 
     public static List<String> readEmailsFromCSV(String fileName) throws FileNotFoundException {
         try (InputStream inputStream = App.class.getClassLoader().getResourceAsStream(fileName)) {
